@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterEmailActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="@string/enter_code"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="233dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/resend"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="297dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/boxes" />
+
+    <EditText
+        android:id="@+id/inp_digit1"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/timer_text"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <EditText
+        android:id="@+id/inp_digit2"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/timer_text"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <EditText
+        android:id="@+id/inp_digit3"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/timer_text"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <EditText
+        android:id="@+id/inp_digit4"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/timer_text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickReturn"
+        android:stateListAnimator="@null"
+        app:layout_constraintEnd_toEndOf="@+id/timer_text"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="@+id/timer_text"
+        app:layout_constraintTop_toTopOf="@+id/timer_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

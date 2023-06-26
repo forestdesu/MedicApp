@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">medic_kaa</string>
+    <string name="skip">Пропустить</string>
+    <string name="when_does_this_game_get_good">Завершить</string>
+    <string name="notifs">Уведомления</string>
+    <string name="notifs_t">Вы быстро узнаете о результатах</string>
+    <string name="monitor">Мониторинг</string>
+    <string name="monitor_t">Наши врачи всегда наблюдают за вашими показателями здоровья</string>
+    <string name="analys">Анализы</string>
+    <string name="analys_t">Экспресс сбор и получение проб</string>
+    <string name="next">Далее</string>
+    <string name="example">example@mail.com</string>
+    <string name="enter_code">Введите код из E-mail</string>
+    <string name="name">Имя</string>
+    <string name="fathername">Отчество</string>
+    <string name="surname">Фамилия</string>
+    <string name="birthdate">Дата рождения</string>
+    <string name="gender_slay">Пол</string>
+    <string name="create">Создать</string>
+    <string name="resend">Отправить код повторно можно будет через 60 секунд.</string>
+    <string name="search">Искать анализы</string>
+    <string name="sales_news">Акции и новости</string>
+    <string name="catalog">Каталог анализов</string>
+    <string name="popular">Популярные</string>
+    <string name="covid">Covid</string>
+    <string name="complex">Комплексные</string>
+    <string name="other">Другое</string>
+</resources>
